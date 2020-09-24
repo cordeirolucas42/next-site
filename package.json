@@ -1,0 +1,27 @@
+{
+  "name": "next-site",
+  "version": "1.0.0",
+  "description": "first custom site with nextjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cordeirolucas42/next-site.git"
+  },
+  "author": "Lucas Cordeiro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cordeirolucas42/next-site/issues"
+  },
+  "homepage": "https://github.com/cordeirolucas42/next-site#readme",
+  "dependencies": {
+    "next": "^9.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "serverless-mysql": "^1.5.4",
+    "sql-template-strings": "^2.2.2"
+  }
+}
